@@ -1,0 +1,2188 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (234.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (375.0ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (469.0ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (47.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20091017015317)
+  [4;35;1mSQL (141.0ms)[0m   [0mCREATE TABLE `contacts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `e_mail` text, `web` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091017015317')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (94.0ms)[0m   [0;1mSHOW FIELDS FROM `contacts`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mdescribe `contacts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW KEYS FROM `contacts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 18:59:09) [GET]
+Rendering humble_dialog/tutorial
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:01:34) [GET]
+Rendering humble_dialog/tutorial
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-16 19:06:07) [GET]
+
+ActionController::RoutingError (No route matches "/js_runit/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:06:56) [GET]
+Rendering humble_dialog/tutorial
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-16 19:07:01) [GET]
+Rendering js_runit/index
+Completed in 359ms (View: 359, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-16 19:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/js_tests_example.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-16 19:08:08) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-16 19:10:46) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20091017015317)
+Migrating to AddsHasWeb (20091017021305)
+  [4;36;1mSQL (344.0ms)[0m   [0;1mALTER TABLE `contacts` ADD `has_web` tinyint(1)[0m
+  [4;35;1mSQL (94.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091017021305')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mdescribe `contacts`[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSHOW KEYS FROM `contacts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateContacts (20091017015317)
+Migrating to AddsHasWeb (20091017021305)
+Migrating to AddDepartments (20091017022750)
+  [4;36;1mSQL (282.0ms)[0m   [0;1mALTER TABLE `contacts` ADD `dept` varchar(255)[0m
+  [4;35;1mSQL (78.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091017022750')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW FIELDS FROM `contacts`[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mdescribe `contacts`[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSHOW KEYS FROM `contacts`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:34:33) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 281ms (View: 250, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:35:22) [GET]
+  [4;35;1mContact Load (0.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 265ms (View: 219, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:37:21) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 79ms (View: 47, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:37:30) [GET]
+  [4;35;1mContact Load (0.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 79ms (View: 32, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:40:58) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;35;1mSQL (16.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:42:40) [GET]
+  [4;35;1mContact Load (0.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 63ms (View: 32, DB: 16) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:44:20) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+
+ActionView::TemplateError (undefined method `link_href_with_id' for #<ActionView::Base:0x359cf24>) on line #36 of app/views/humble_dialog/tutorial.html.erb:
+33: 
+34:       <ul id="sidebar-controls">
+35:         <li id="sidebar-control-hide">
+36:           <%= link_href_with_id "hide", {:href => '#', :id => 'button-sidebar-hide'} %>
+37:         </li>
+38:         <li id="sidebar-control-show">
+39:           <%= link_href_with_id "show", {:href => '#', :id => 'button-sidebar-show'} %>
+
+    app/views/humble_dialog/tutorial.html.erb:36
+
+Rendered rescues/_trace (547.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:45:58) [GET]
+  [4;35;1mContact Load (0.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:46:27) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:47:25) [GET]
+  [4;35;1mContact Load (0.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 19:54:35) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 20:24:40) [GET]
+  [4;35;1mContact Load (16.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+
+ActionView::TemplateError (undefined method `javascript_link_tag' for #<ActionView::Base:0x3522a58>) on line #13 of app/views/humble_dialog/tutorial.html.erb:
+10: 
+11:     <title>HumbleDialog - tutorial | GutZofter</title>
+12: 
+13:     <%= javascript_link_tag 'prototype' %>
+14:     <%= javascript_link_tag 'humble_dialog' %>
+15: 
+16:     <script type="text/javascript">
+
+    app/views/humble_dialog/tutorial.html.erb:13
+
+Rendered rescues/_trace (485.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 20:25:16) [GET]
+  [4;36;1mContact Load (0.0ms)[0m   [0;1mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 78ms (View: 47, DB: 16) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#tutorial (for 127.0.0.1 at 2009-10-16 20:26:07) [GET]
+  [4;35;1mContact Load (0.0ms)[0m   [0mSELECT * FROM `contacts` [0m
+Rendering humble_dialog/tutorial
+Completed in 94ms (View: 32, DB: 0) | 200 OK [http://localhost/humble_dialog/tutorial]
+  [4;36;1mSQL (938.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (422.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:22:05) [GET]
+Rendering js_runit/index
+Completed in 594ms (View: 579, DB: 1360) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:23:01) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:25:36) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:26:02) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:26:50) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:29:26) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:31:54) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:33:21) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:33:37) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:34:21) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:36:16) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:36:38) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:37:38) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:38:54) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:40:02) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:41:12) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:41:40) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:42:22) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:44:40) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:46:17) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:47:52) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:48:32) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:48:43) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:49:00) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:50:23) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:50:44) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:51:21) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 09:51:44) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:00:28) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:01:58) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:02:50) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:03:12) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:03:32) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:05:11) [GET]
+Rendering js_runit/index
+Completed in 172ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:06:21) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:06:38) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:07:31) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:07:44) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:08:09) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:08:55) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:09:14) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:12:10) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:12:55) [GET]
+Rendering js_runit/index
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:13:06) [GET]
+Rendering js_runit/index
+Completed in 63ms (View: 47, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:13:24) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:14:35) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:15:51) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:20:03) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 10:35:51) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 187ms (View: 172, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 10:41:02) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 10:42:54) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 10:43:40) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 10:46:38) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:53:28) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:53:48) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 10:54:31) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:02:31) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:03:12) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:05:08) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:07:00) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:07:59) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:08:18) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:11:58) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:12:35) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:21:12) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:21:38) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:22:15) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:28:59) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 11:29:24) [GET]
+Rendering js_runit/index
+Completed in 188ms (View: 188, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:34:26) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:35:48) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:48:37) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:49:13) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:49:37) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:50:23) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:50:42) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:52:08) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:52:17) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:55:15) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:59:29) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 11:59:52) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 12:00:16) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 12:36:04) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 12:38:20) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 12:59:00) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 15) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:10:54) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:11:18) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:11:45) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:11:55) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:12:18) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:12:46) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:13:03) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:14:44) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:16:11) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:16:51) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:25:07) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:32:21) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:34:30) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:46:32) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:47:26) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:48:11) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:51:37) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:52:44) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:53:25) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:54:11) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:54:44) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 13:57:13) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:57:19) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 13:58:20) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:00:03) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:01:05) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 203ms (View: 187, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:05:25) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:07:35) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:08:32) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:09:14) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 15) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:10:14) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:20:36) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:21:29) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:22:19) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 15) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:24:03) [GET]
+Rendering js_runit/index
+Completed in 62ms (View: 47, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:25:07) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:25:34) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:29:52) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:31:35) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:32:26) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:34:02) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:34:27) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:35:20) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:35:43) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:35:59) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:36:23) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:37:37) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:37:57) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:39:44) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:40:48) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:41:36) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-17 14:42:20) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 14:42:36) [GET]
+Rendering js_runit/index
+Completed in 235ms (View: 235, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 19:53:08) [GET]
+Rendering js_runit/index
+Completed in 359ms (View: 344, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 19:55:32) [GET]
+Rendering js_runit/index
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 20:01:15) [GET]
+Rendering js_runit/index
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 20:01:40) [GET]
+Rendering js_runit/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 20:02:36) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-17 20:03:02) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (203.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (32.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 12:24:44) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 515ms (View: 500, DB: 235) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 12:25:00) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:25:19) [GET]
+Rendering js_runit/index
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:25:42) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:26:02) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:27:16) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:27:27) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:28:08) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:28:29) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:31:38) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:32:42) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:34:43) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:35:42) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:35:54) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:41:34) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:42:23) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:42:30) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:43:22) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:44:28) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:45:13) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:46:02) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:47:04) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:48:13) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:48:25) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:49:39) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:50:07) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:50:32) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 12:53:40) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:06:09) [GET]
+Rendering js_runit/index
+Completed in 156ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:06:34) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:08:02) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:08:36) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:09:22) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:09:55) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:10:51) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:11:03) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:11:43) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:12:28) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:16:34) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:18:21) [GET]
+Rendering js_runit/index
+Completed in 187ms (View: 187, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:18:46) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:20:02) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:20:51) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:21:19) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:21:50) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:31:46) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:32:39) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:33:02) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:37:17) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:37:44) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:42:12) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:43:59) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:48:26) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:48:51) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:49:22) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:51:19) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#index (for 127.0.0.1 at 2009-10-18 13:51:38) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: humble_dialog):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:51:52) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:52:11) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:55:47) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#index (for 127.0.0.1 at 2009-10-18 13:56:44) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: humble_dialog):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:56:52) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 31ms (View: 16, DB: 15) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:57:53) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:58:03) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:58:40) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 13:59:00) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 13:59:56) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:00:10) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:01:14) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:18:21) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 16) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:36:36) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:37:06) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:37:37) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 14:39:08) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 20:39:12) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 20:39:17) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 20:59:39) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 21:02:36) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 21:10:43) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 32, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 21:10:49) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 21:10:54) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-18 21:13:33) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 21:15:33) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 21:15:46) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 21:19:21) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#humble_dialog (for 127.0.0.1 at 2009-10-18 21:19:38) [GET]
+Rendering humble_dialog/humble_dialog
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/humble_dialog]
+  [4;36;1mSQL (62.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:46:43) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 31, DB: 77) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:47:05) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:47:17) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 16) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:50:56) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 15) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:55:34) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:56:09) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:56:56) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 07:57:02) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:00:31) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:01:11) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:01:28) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:02:54) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:05:38) [GET]
+Rendering js_runit/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:06:09) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:07:26) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:08:00) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:08:11) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:08:56) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:09:11) [GET]
+Rendering js_runit/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:09:29) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:21:19) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:23:20) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 08:23:26) [GET]
+Rendering js_runit/index
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:26:00) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 250ms (View: 234, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:26:50) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:26:57) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:27:46) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:28:22) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:41:25) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 08:41:39) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 10:58:07) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 578ms (View: 562, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 10:58:28) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 10:58:28) [GET]
+Rendering js_runit/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 10:58:55) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 11:00:44) [GET]
+Rendering js_runit/index
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 11:09:08) [GET]
+Rendering js_runit/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 11:09:26) [GET]
+Rendering js_runit/index
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 11:15:05) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 11:15:11) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 11:15:22) [GET]
+Rendering js_runit/index
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#index (for 127.0.0.1 at 2009-10-19 11:46:04) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: unit_tests):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#unit_tests (for 127.0.0.1 at 2009-10-19 11:46:12) [GET]
+Rendering js_runit/unit_tests
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/js_runit/unit_tests]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#unit_tests (for 127.0.0.1 at 2009-10-19 12:19:17) [GET]
+Rendering js_runit/unit_tests
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/js_runit/unit_tests]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HumbleDialogController#testable_bbom (for 127.0.0.1 at 2009-10-19 12:19:23) [GET]
+Rendering humble_dialog/testable_bbom
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/humble_dialog/testable_bbom]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#unit_tests (for 127.0.0.1 at 2009-10-19 12:20:44) [GET]
+Rendering js_runit/unit_tests
+Completed in 93ms (View: 93, DB: 0) | 200 OK [http://localhost/js_runit/unit_tests]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing JsRunitController#unit_tests (for 127.0.0.1 at 2009-10-19 12:20:50) [GET]
+Rendering js_runit/unit_tests
+Completed in 31ms (View: 15, DB: 0) | 200 OK [http://localhost/js_runit/unit_tests]

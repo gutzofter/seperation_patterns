@@ -21,7 +21,7 @@ development:
   database: seperation_patterns_development
   pool: 5
   username: root
-  password:
+  password: gutz
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -34,7 +34,7 @@ test:
   database: seperation_patterns_test
   pool: 5
   username: root
-  password:
+  password: gutz
   host: localhost
 
 production:
@@ -44,5 +44,5 @@ production:
   database: seperation_patterns_production
   pool: 5
   username: root
-  password: 
+  password: gutz
   host: localhost
